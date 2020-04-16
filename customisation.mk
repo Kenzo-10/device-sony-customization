@@ -14,7 +14,7 @@
 
 TARGET_KERNEL_HEADERS := kernel/sony/msm-4.14/kernel
 
-CUST_PATH := device/sony/customization
+CUST_PATH := device/sony/customisation
 
 # cust packages
 PRODUCT_PACKAGES += \
@@ -38,6 +38,8 @@ PRODUCT_PACKAGES += \
     uceShimService \
     uimgbaservice \
     uimlpaservice
+
+TARGET_FWK_DETECT_PATH := vendor/qcom/opensource/core-utils	
 
 # IMS
 PRODUCT_COPY_FILES += \
